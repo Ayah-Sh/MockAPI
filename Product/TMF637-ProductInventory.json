@@ -1,0 +1,62 @@
+{
+  "id": "42",
+  "href": "/productInventory/v4/product/42",
+  "name": "SuperFast Broadband Connection",
+  "description": "High-speed internet service with unlimited data.",
+  "isBundle": false,
+  "isCustomerVisible": true,
+  "orderDate": "2025-04-25T10:30:00+02:00",
+  "productSerialNumber": "SFB-2025-ABC-123",
+  "productSpecification": {
+    "id": "PB-BB-001",
+    "href": "/productCatalog/v4/productSpecification/PB-BB-001",
+    "name": "Broadband Service Specification"
+  },
+  "productOffering": {
+    "id": "PO-BB-ULTRA",
+    "href": "/productCatalog/v4/productOffering/PO-BB-ULTRA",
+    "name": "Ultra Fast Broadband Offer"
+  },
+  "billingAccount": {
+    "id": "BA-9876",
+    "href": "/billingManagement/v4/billingAccount/BA-9876",
+    "name": "John Doe's Billing Account"
+  },
+  "place": [
+    {
+      "id": "LOC-12345",
+      "href": "/geographicInventory/v4/place/LOC-12345",
+      "name": "123 Main Street, Anytown"
+    }
+  ],
+  "productTerm": [
+    {
+      "id": "PT-6789",
+      "name": "12 Month Contract",
+      "duration": {
+        "amount": 12,
+        "unit": "month"
+      }
+    }
+  ],
+  "realizingService": [
+    {
+      "id": "SVC-555",
+      "href": "/serviceInventory/v4/service/SVC-555",
+      "name": "Broadband Internet Service Instance"
+    }
+  ],
+  "productRelationship": [
+    {
+      "type": "requires",
+      "product": {
+        "id": "38",
+        "href": "/productInventory/v4/product/38",
+        "name": "Home Gateway Device"
+      }
+    }
+  ],
+  "status": "Active",
+  "@type": "Product",
+  "@schemaLocation": "https://example.com/productInventory/v4/schema/Product.json"
+}
